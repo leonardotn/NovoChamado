@@ -31,6 +31,6 @@ import {FileUploadModule} from 'primeng/fileupload';
     FileUploadModule
   ],
   declarations: [NovoColaboradorComponent, ListaColaboradorComponent],
-  exports: [NovoColaboradorComponent]
+  exports: [NovoColaboradorComponent, ListaColaboradorComponent]
 })
 export class ColaboradorModule { }
