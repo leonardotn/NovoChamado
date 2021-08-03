@@ -13,6 +13,7 @@ import {CheckboxModule} from 'primeng/checkbox';
 import {TableModule} from 'primeng/table';
 import {ToolbarModule} from 'primeng/toolbar';
 import {FileUploadModule} from 'primeng/fileupload';
+import {InputTextModule} from 'primeng/inputtext';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import {FileUploadModule} from 'primeng/fileupload';
     CheckboxModule,
     TableModule,
     ToolbarModule,
-    FileUploadModule
+    FileUploadModule,
+    InputTextModule
   ],
   declarations: [NovoColaboradorComponent, ListaColaboradorComponent],
   exports: [NovoColaboradorComponent, ListaColaboradorComponent]

@@ -9,8 +9,8 @@ import { Colaborador } from 'src/app/shared/models/colaborador';
 export class ListaColaboradorComponent implements OnInit {
 
     products: Colaborador[];
-
     cols: any[];
+    display: boolean = false;
 
     constructor() { }
 
@@ -22,5 +22,9 @@ export class ListaColaboradorComponent implements OnInit {
             { field: 'email', header: 'E-mail' },
             { field: 'acoes', header: '' }
         ];
+    }
+
+    showDialog() {
+        this.display = true;
     }
 }
